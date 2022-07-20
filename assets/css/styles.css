@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
@@ -58,6 +59,7 @@ header {
 
 #hero-title {
   font-size: 48px;
+  font-weight: 700;
   margin-bottom: 0;
   color: #f9faf8;
 }
