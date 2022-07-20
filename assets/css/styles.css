@@ -44,9 +44,6 @@ header {
   gap: 20px;
 }
 
-.nav-item {
-}
-
 .hero-container {
   display: flex;
   align-items: flex-start;
@@ -54,8 +51,7 @@ header {
 }
 
 .hero {
-  width: 45%;
-  height: 100%;
+  max-width: 45%;
   padding-right: 50px;
   flex-shrink: 0;
 }
@@ -72,6 +68,7 @@ header {
 }
 
 .image-container {
+  flex: 0 0 auto;
   width: 500px;
   height: 350px;
 }
@@ -91,4 +88,58 @@ button {
 
 .buttons {
   background-color: #3882f6;
+}
+
+.information {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#information-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.card {
+  max-width: 200px;
+  height: auto;
+}
+
+.card-img {
+  width: 200px;
+}
+
+.card-text {
+  color: #1f2937;
+}
+
+.quote {
+  height: 250px;
+  display: flex;
+}
+
+.contact {
+  height: 250px;
+  display: flex;
+}
+
+footer {
+  height: 50px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
