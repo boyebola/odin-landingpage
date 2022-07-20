@@ -6,24 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
 
-    <link type="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <section class="top">
-      <div class="nav-bar">
-        <ul class="nav-container">
-          <img class="logo" src="" alt="" />
-          <li class="nav-item">Home</li>
-          <li class="nav-item">Categories</li>
-          <li class="nav-item">Nav Menu</li>
-        </ul>
-      </div>
-      <div class="hero-container">
-        <div class="hero-description">
-          <div class="hero-text"></div>
-          <button class="buttons"></button>
+      <header class="header">
+        <div class="logo">
+          <img
+            id="header-logo"
+            src="./assets/images/site-logo.png"
+            alt="logo"
+          />
         </div>
-        <img class="hero-image" src="" alt="" />
+        <ul class="nav-items">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Living Room</li>
+          <li class="nav-item">Bedroom</li>
+        </ul>
+      </header>
+      <div class="hero-container">
+        <div class="hero">
+          <h1 id="hero-title">Luxury at comfort of your back!</h1>
+          <p class="hero-text">
+            Take a look at this peace of beauty. Simply put in a self space to
+            enjoy tranquility. Bring the ambience of luxury to your living space
+          </p>
+          <button class="buttons">Sign Up</button>
+        </div>
+        <div class="image-container">
+          <img
+            class="hero-image"
+            src="./assets/images/relax-futon.jpg"
+            alt="photo by Pixabay"
+          />
+        </div>
       </div>
     </section>
     <section class="cards">
@@ -61,5 +77,5 @@
       </div>
     </section>
   </body>
-  <footer>&copy; 2022 boyebola Project</footer>
+  <footer><div>&copy; 2022 boyebola Project</div></footer>
 </html>
