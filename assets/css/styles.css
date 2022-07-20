@@ -87,13 +87,10 @@ header {
 
 button {
   border: none;
-  color: white;
+  color: #f9faf8;
   font-size: 18px;
   border-radius: 8px;
-  padding: 8px 24px;
-}
-
-.buttons {
+  padding: 8px 30px;
   background-color: #3882f6;
 }
 
@@ -163,13 +160,40 @@ button {
   font-weight: bold;
 }
 
-.contact {
-  height: 250px;
+.cta-section {
+  height: 350px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  width: 100%;
+  padding: 40px 0px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 20px;
+}
+
+.cta-title {
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+#cta-text {
+  color: #e5e7eb;
+  margin-top: 0;
+}
+
+#cta-button {
+  border-style: solid;
+  border-color: #f9faf8;
 }
 
 footer {
-  height: 50px;
+  padding: 50px;
   background-color: #1f2937;
   color: #e5e7eb;
   display: flex;
